@@ -81,7 +81,7 @@ const About = () => {
        With over 6+ years of development experience, I have worked on a variety of projects ranging from building products from scratch to building small components on web apps used nationally throughout Canada. On top of that, I enjoy learning new technologies and always keep my self refreshed with best practices for any upcoming opportunities and challenges.
        </StyledParagraph>
 
-       <StyledParagraph>In my spare time, I love watching/playing basketball and barbecuing in my backyard.</StyledParagraph>
+       <StyledParagraph>In my spare time, I love watching/playing cricket and barbecuing in my backyard.</StyledParagraph>
      </FirstChild>
 
 
