@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/dantulurivarma/resume/static/css/main.3da3b1d6.chunk.css",
+    "main.js": "/dantulurivarma/resume/static/js/main.f70e152c.chunk.js",
+    "main.js.map": "/dantulurivarma/resume/static/js/main.f70e152c.chunk.js.map",
+    "runtime-main.js": "/dantulurivarma/resume/static/js/runtime-main.0b650b39.js",
+    "runtime-main.js.map": "/dantulurivarma/resume/static/js/runtime-main.0b650b39.js.map",
+    "static/js/2.e3ec652c.chunk.js": "/dantulurivarma/resume/static/js/2.e3ec652c.chunk.js",
+    "static/js/2.e3ec652c.chunk.js.map": "/dantulurivarma/resume/static/js/2.e3ec652c.chunk.js.map",
+    "static/js/3.46fdd03a.chunk.js": "/dantulurivarma/resume/static/js/3.46fdd03a.chunk.js",
+    "static/js/3.46fdd03a.chunk.js.map": "/dantulurivarma/resume/static/js/3.46fdd03a.chunk.js.map",
+    "index.html": "/dantulurivarma/resume/index.html",
+    "static/css/main.3da3b1d6.chunk.css.map": "/dantulurivarma/resume/static/css/main.3da3b1d6.chunk.css.map",
+    "static/js/2.e3ec652c.chunk.js.LICENSE.txt": "/dantulurivarma/resume/static/js/2.e3ec652c.chunk.js.LICENSE.txt",
+    "static/media/appImage.d719c967.jpg": "/dantulurivarma/resume/static/media/appImage.d719c967.jpg",
+    "static/media/chat.4aa99707.svg": "/dantulurivarma/resume/static/media/chat.4aa99707.svg",
+    "static/media/expimage.03bc2529.jpg": "/dantulurivarma/resume/static/media/expimage.03bc2529.jpg",
+    "static/media/phani.eab651d4.jpeg": "/dantulurivarma/resume/static/media/phani.eab651d4.jpeg",
+    "static/media/resume.37dfba36.pdf": "/dantulurivarma/resume/static/media/resume.37dfba36.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b650b39.js",
+    "static/js/2.e3ec652c.chunk.js",
+    "static/css/main.3da3b1d6.chunk.css",
+    "static/js/main.f70e152c.chunk.js"
+  ]
+}
