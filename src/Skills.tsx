@@ -91,8 +91,12 @@ const StyledGridItem = styled.div`
     padding: 20px 0px;
     text-align: center;
     border-radius: 30px;
-
    
+    p {
+      @media (max-width: 48em){
+       font-size: 14px;
+      };
+    }
 `;
 const Skills = () => {
   return (

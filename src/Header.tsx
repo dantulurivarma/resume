@@ -132,10 +132,10 @@ const StyledBurger = styled.button<{open : boolean}>`
     transition: all 0.3s linear;
     position: relative;
     transform-origin: 1px;
-    box-shadow: rgb(47 47 47) 0px 0px 3px 1px;l
+    box-shadow: rgb(47 47 47) 0px 0px 3px 1px;
 
     :first-child {
-      transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
+     transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
     }
 
     :nth-child(2) {
