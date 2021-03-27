@@ -14,7 +14,8 @@ function App() {
   return (
 
     <div className="App">
-      <Header />
+      <h1>Site Moved</h1>
+      {/* <Header />
       <div id="about">
         <About />
       </div>
@@ -28,7 +29,7 @@ function App() {
       <div id="contact">
         <Interact />
       </div>
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
