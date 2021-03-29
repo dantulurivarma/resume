@@ -1,8 +1,10 @@
 import styled, { css } from 'styled-components';
 import React, { useEffect, useState } from 'react';
 import img from './assets/appImage.jpg';
+import img2 from './assets/test.png';
 import { moveInLeft, moveIn, moveOutNav, moveInNav } from './styles/animations';
 import {  NavHashLink } from 'react-router-hash-link';
+
 
 
 const Title = styled.h1`
@@ -13,18 +15,6 @@ const Title = styled.h1`
   letter-spacing: 2px;
 `;
 
-const Link = styled.a`
-  font-size: 14px;
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  margin-left: 30px;
-  letter-spacing: 1px;
-  &:hover {
-    color: red;
-    font-size: 16px;
-  }
-`;
 
 const Nav = styled.nav<{isScrolling: boolean, scrollPosition: number}>`
   position: fixed;
@@ -45,12 +35,14 @@ const Nav = styled.nav<{isScrolling: boolean, scrollPosition: number}>`
 
 const Wrapper = styled.div`
   display:flex;
+  position: relative;
   background-image: url(${img});
-  height: 500px;
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   color:rgb(255, 255, 255);
+
 
   a {
   font-size: 14px;
@@ -69,6 +61,37 @@ const Wrapper = styled.div`
     font-weight: 600;
     color: rgb(255, 255, 255);
     text-shadow: rgb(212 212 212) 1px 1px 2px;
+}
+
+.section {
+  position absolute;
+  bottom: 1.5rem;
+  left: 48%;
+  @media (max-width: 576px) {
+    left: 42%;
+  };
+}
+.section::before {
+  animation: bounce 1s ease infinite;
+  bottom: 2rem;
+  color: #fff;
+  content: '╲╱';
+  font-size: 2rem;
+  height: 4rem;
+  left: 50%;
+  letter-spacing: -1px;
+  line-height: 4rem;
+  margin-left: -3rem;
+  opacity: 0.8;
+  position: absolute;
+  text-align: center;
+  width: 6rem;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-50%);
+  }
 }
 `;
 
@@ -141,6 +164,8 @@ const StyledBurger = styled.button<{open : boolean}>`
     :nth-child(2) {
       opacity: ${({ open }) => open ? '0' : '1'};
       transform: ${({ open }) => open ? 'translateX(-20px)' : 'translateX(0)'};
+      width: 3rem;
+      align-self: flex-end;
     }
 
     :nth-child(3) {
@@ -213,7 +238,6 @@ const Header = () => {
    setOpen((prevValue) => !prevValue)
   };
   return (
-   
     <Wrapper>
     <HamburgerContainer>
     <StyledBurger open={open} onClick={() => handleNavBar()}>
@@ -240,6 +264,8 @@ const Header = () => {
     <H1>Phaneendra Dantuluri</H1>
     <H4>Fullstack Software Engineer</H4>
     </TitleDiv>
+    <NavHashLink className="section" smooth to="/#about" activeClassName="active">
+    </NavHashLink>
   </Wrapper>
   );
 };

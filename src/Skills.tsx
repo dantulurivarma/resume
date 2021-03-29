@@ -1,7 +1,7 @@
-import React from "react";
+
+import { AiOutlineCheck } from "react-icons/ai";
 import styled from "styled-components";
 import { Border, StyledH2 } from "./styles/global";
-import { AiOutlineCheck } from "react-icons/ai";
 
 const Container = styled.div`
   padding: 90px 12vw;
@@ -107,15 +107,15 @@ const Skills = () => {
         <div className={'skill-container'}>
           <StyledH4>LIBRARIES & FRAMEWORKS</StyledH4>
           <StyledGrid>
-            <StyledGridItem><p>Angular</p></StyledGridItem>
-            <StyledGridItem><p>React</p></StyledGridItem>
-            <StyledGridItem><p>Spring Boot</p></StyledGridItem>
-            <StyledGridItem><p>Node Js</p></StyledGridItem>
-            <StyledGridItem><p>Flask</p></StyledGridItem>
-            <StyledGridItem><p>Express</p></StyledGridItem>
-            <StyledGridItem><p>React Native</p></StyledGridItem>
-            <StyledGridItem><p>Vue</p></StyledGridItem>
-            <StyledGridItem><p>jQuery</p></StyledGridItem>
+            <StyledGridItem data-aos="flip-right"><p>Angular</p></StyledGridItem>
+            <StyledGridItem data-aos="flip-right"><p>React</p></StyledGridItem>
+            <StyledGridItem data-aos="flip-right"><p>Spring Boot</p></StyledGridItem>
+            <StyledGridItem data-aos="flip-right"><p>Node Js</p></StyledGridItem>
+            <StyledGridItem data-aos="flip-right"><p>Flask</p></StyledGridItem>
+            <StyledGridItem data-aos="flip-right"><p>Express</p></StyledGridItem>
+            <StyledGridItem data-aos="flip-right"><p>React Native</p></StyledGridItem>
+            <StyledGridItem data-aos="flip-right"><p>Vue</p></StyledGridItem>
+            <StyledGridItem data-aos="flip-right"><p>jQuery</p></StyledGridItem>
           </StyledGrid>
         </div>
         <div className={'skill-container'}>

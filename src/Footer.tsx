@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import linkedin from './assets/linkedin.svg';
-import mail from './assets/email.svg';
 import { AiOutlineLinkedin, AiOutlineMail } from "react-icons/ai";
 
 
