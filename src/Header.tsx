@@ -255,9 +255,9 @@ const Header = () => {
     <Nav isScrolling={scrolling} scrollPosition={scrollPosition}>
       <Title> Phaneendra Dantuluri</Title>
       <LinksDiv>
-      <NavHashLink smooth to="/#about" activeClassName="active">About</NavHashLink>
-      <NavHashLink smooth to="/#experience"  activeClassName="active">Experience</NavHashLink>
-      <NavHashLink smooth to="/#contact"  activeClassName="active">Contact</NavHashLink>
+      <NavHashLink smooth to="/resume#about" activeClassName="active">About</NavHashLink>
+      <NavHashLink smooth to="/resume#experience"  activeClassName="active">Experience</NavHashLink>
+      <NavHashLink smooth to="/resume#contact"  activeClassName="active">Contact</NavHashLink>
       </LinksDiv>
     </Nav>
     <TitleDiv>
