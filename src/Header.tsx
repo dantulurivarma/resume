@@ -264,7 +264,7 @@ const Header = () => {
     <H1>Phaneendra Dantuluri</H1>
     <H4>Fullstack Software Engineer</H4>
     </TitleDiv>
-    <NavHashLink className="section" smooth to="/#about" activeClassName="active">
+    <NavHashLink className="section" smooth to="/resume#about" activeClassName="active">
     </NavHashLink>
   </Wrapper>
   );
