@@ -111,7 +111,7 @@ const Skills = () => {
             <StyledGridItem data-aos="flip-right"><p>React</p></StyledGridItem>
             <StyledGridItem data-aos="flip-right"><p>Spring Boot</p></StyledGridItem>
             <StyledGridItem data-aos="flip-right"><p>Node Js</p></StyledGridItem>
-            <StyledGridItem data-aos="flip-right"><p>Flask</p></StyledGridItem>
+            <StyledGridItem data-aos="flip-right"><p>Ionic</p></StyledGridItem>
             <StyledGridItem data-aos="flip-right"><p>Express</p></StyledGridItem>
             <StyledGridItem data-aos="flip-right"><p>React Native</p></StyledGridItem>
             <StyledGridItem data-aos="flip-right"><p>Vue</p></StyledGridItem>
@@ -126,7 +126,6 @@ const Skills = () => {
             <li className={'margin-bottom-md'}><span><AiOutlineCheck /></span><p>HTML5</p></li>
             <li className={'margin-bottom-md'}><span><AiOutlineCheck /></span><p>CSS/Sass</p></li>
             <li className={'margin-bottom-md'}><span><AiOutlineCheck /></span><p>Java</p></li>
-            <li className={'margin-bottom-md'}><span><AiOutlineCheck /></span><p>Python</p></li>
           </ul>
         </div>
         <div className={'skill-container'}>
