@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import img from './assets/appImage.jpg';
-import img2 from './assets/test.png';
+import hiImg from './assets/hi.png';
 import { moveInLeft, moveIn, moveOutNav, moveInNav } from './styles/animations';
 import {  NavHashLink } from 'react-router-hash-link';
 
@@ -13,6 +13,7 @@ const Title = styled.h1`
   padding-left: 1rem;
   font-weight: 600;
   letter-spacing: 2px;
+  display: inline-block;
 `;
 
 
@@ -31,6 +32,10 @@ const Nav = styled.nav<{isScrolling: boolean, scrollPosition: number}>`
   @media (min-width: 576px) {
    display: flex;
   };
+  img {
+    width: 50px;
+    height: 50px;
+  }
 `;
 
 const Wrapper = styled.div`
@@ -253,18 +258,20 @@ const Header = () => {
     </StyledMenu>
     </HamburgerContainer>
     <Nav isScrolling={scrolling} scrollPosition={scrollPosition}>
+      <div>
       <Title> Phaneendra Dantuluri</Title>
+      </div>
       <LinksDiv>
-      <NavHashLink smooth to="/resume#about" activeClassName="active">About</NavHashLink>
-      <NavHashLink smooth to="/resume#experience"  activeClassName="active">Experience</NavHashLink>
-      <NavHashLink smooth to="/resume#contact"  activeClassName="active">Contact</NavHashLink>
+      <NavHashLink smooth to="/resume/#about" activeClassName="active">About</NavHashLink>
+      <NavHashLink smooth to="/resume/#experience"  activeClassName="active">Experience</NavHashLink>
+      <NavHashLink smooth to="/resume/#contact"  activeClassName="active">Contact</NavHashLink>
       </LinksDiv>
     </Nav>
     <TitleDiv>
     <H1>Phaneendra Dantuluri</H1>
     <H4>Fullstack Software Engineer</H4>
     </TitleDiv>
-    <NavHashLink className="section" smooth to="/resume#about" activeClassName="active">
+    <NavHashLink className="section" smooth to="/resume/#about" activeClassName="active">
     </NavHashLink>
   </Wrapper>
   );
