@@ -252,9 +252,9 @@ const Header = () => {
     </StyledBurger>
     <StyledMenu open={open}>
     <Title> Phaneendra Dantuluri</Title>
-      <NavHashLink smooth to="/#about" activeClassName="active" onClick={() => handleNavBar()}>About</NavHashLink>
-      <NavHashLink smooth to="/#experience"  activeClassName="active" onClick={() => handleNavBar()}>Experience</NavHashLink>
-      <NavHashLink smooth to="/#contact"  activeClassName="active"  onClick={() => handleNavBar()}>Contact</NavHashLink>
+      <NavHashLink smooth to="/resume/#about" activeClassName="active" onClick={() => handleNavBar()}>About</NavHashLink>
+      <NavHashLink smooth to="/resume/#experience"  activeClassName="active" onClick={() => handleNavBar()}>Experience</NavHashLink>
+      <NavHashLink smooth to="/resume/#contact"  activeClassName="active"  onClick={() => handleNavBar()}>Contact</NavHashLink>
     </StyledMenu>
     </HamburgerContainer>
     <Nav isScrolling={scrolling} scrollPosition={scrollPosition}>
