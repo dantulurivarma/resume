@@ -1,30 +1,25 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.493ed44a.chunk.css",
-    "main.js": "/resume/static/js/main.52ed3f6b.chunk.js",
-    "main.js.map": "/resume/static/js/main.52ed3f6b.chunk.js.map",
-    "runtime-main.js": "/resume/static/js/runtime-main.9993c686.js",
-    "runtime-main.js.map": "/resume/static/js/runtime-main.9993c686.js.map",
+    "main.js": "/resume/static/js/main.826f7034.chunk.js",
+    "main.js.map": "/resume/static/js/main.826f7034.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.de6ca2a6.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.de6ca2a6.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/resume/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.3974b06d.chunk.js": "/resume/static/js/2.3974b06d.chunk.js",
-    "static/js/2.3974b06d.chunk.js.map": "/resume/static/js/2.3974b06d.chunk.js.map",
-    "static/js/3.ee807e3a.chunk.js": "/resume/static/js/3.ee807e3a.chunk.js",
-    "static/js/3.ee807e3a.chunk.js.map": "/resume/static/js/3.ee807e3a.chunk.js.map",
+    "static/js/2.0c9cd548.chunk.js": "/resume/static/js/2.0c9cd548.chunk.js",
+    "static/js/2.0c9cd548.chunk.js.map": "/resume/static/js/2.0c9cd548.chunk.js.map",
+    "static/js/3.ba668eee.chunk.js": "/resume/static/js/3.ba668eee.chunk.js",
+    "static/js/3.ba668eee.chunk.js.map": "/resume/static/js/3.ba668eee.chunk.js.map",
     "index.html": "/resume/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/resume/static/css/2.7fc9bc2b.chunk.css.map",
     "static/css/main.493ed44a.chunk.css.map": "/resume/static/css/main.493ed44a.chunk.css.map",
-    "static/js/2.3974b06d.chunk.js.LICENSE.txt": "/resume/static/js/2.3974b06d.chunk.js.LICENSE.txt",
-    "static/media/appImage.d719c967.jpg": "/resume/static/media/appImage.d719c967.jpg",
-    "static/media/expimage.03bc2529.jpg": "/resume/static/media/expimage.03bc2529.jpg",
-    "static/media/hi.09968b61.png": "/resume/static/media/hi.09968b61.png",
-    "static/media/phani.eab651d4.jpeg": "/resume/static/media/phani.eab651d4.jpeg",
-    "static/media/resume.37dfba36.pdf": "/resume/static/media/resume.37dfba36.pdf"
+    "static/js/2.0c9cd548.chunk.js.LICENSE.txt": "/resume/static/js/2.0c9cd548.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9993c686.js",
+    "static/js/runtime-main.de6ca2a6.js",
     "static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.3974b06d.chunk.js",
+    "static/js/2.0c9cd548.chunk.js",
     "static/css/main.493ed44a.chunk.css",
-    "static/js/main.52ed3f6b.chunk.js"
+    "static/js/main.826f7034.chunk.js"
   ]
 }
