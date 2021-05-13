@@ -167,7 +167,6 @@ const Skills = () => {
             <li className={'margin-bottom-md'} data-aos="fade-up"><span><AiOutlineCheck /></span><p>HTML5</p></li>
             <li className={'margin-bottom-md'} data-aos="fade-up"><span><AiOutlineCheck /></span><p>CSS/Sass</p></li>
             <li className={'margin-bottom-md'} data-aos="fade-up"><span><AiOutlineCheck /></span><p>Java</p></li>
-            <li className={'margin-bottom-md'} data-aos="fade-up"><span><AiOutlineCheck /></span><p>Python</p></li>
           </ul>
         </div>
 
