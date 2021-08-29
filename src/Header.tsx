@@ -1,7 +1,6 @@
 import styled, { css } from 'styled-components';
 import  { useEffect, useState } from 'react';
 import img from './assets/appImage.jpg';
-import hiImg from './assets/hi.png';
 import { moveInLeft, moveIn, moveOutNav, moveInNav } from './styles/animations';
 import {  NavHashLink } from 'react-router-hash-link';
 
@@ -41,8 +40,8 @@ const Nav = styled.nav<{isScrolling: boolean, scrollPosition: number}>`
 const Wrapper = styled.div`
   display:flex;
   position: relative;
-  background-image: url(${img});
   height: 100vh;
+  background-image: url(${img});
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
