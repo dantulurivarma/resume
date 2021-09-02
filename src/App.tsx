@@ -18,7 +18,7 @@ function App() {
     });
   }, []);
   return (
-    <div>Not available at the moment.....</div>
+    <div> Currently Unavailablee</div>
 
     // <div className="App">
     //   <Header />
