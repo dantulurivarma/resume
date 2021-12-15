@@ -18,26 +18,25 @@ function App() {
     });
   }, []);
   return (
-    <div> Currently Unavailablee</div>
 
-    // <div className="App">
-    //   <Header />
-    //   <div id="about">
-    //     <About />
-    //   </div>
-    //   <div id="skills">
-    //     <Skills />
-    //   </div>
+    <div className="App">
+      <Header />
+      <div id="about">
+        <About />
+      </div>
+      <div id="skills">
+        <Skills />
+      </div>
         
-    //   <div id="experience">
-    //   <Experience />
-    //   </div>
-    //   <ViewResume />
-    //   <div id="contact">
-    //     <Interact />
-    //   </div>
-    //   <Footer /> 
-    // </div>
+      <div id="experience">
+      <Experience />
+      </div>
+      <ViewResume />
+      <div id="contact">
+        <Interact />
+      </div>
+      <Footer /> 
+    </div>
   );
 }
 

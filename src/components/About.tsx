@@ -78,7 +78,7 @@ const MobileImageDiv = styled.div`
 const About = () => {
   return (
     <Wrapper>
-      <ImageDiv data-aos="fade-right"></ImageDiv>
+      {/* <ImageDiv data-aos="fade-right"></ImageDiv> */}
       <div className="mob-desc">
       <MobileImageDiv data-aos="fade-right"/>
       </div>

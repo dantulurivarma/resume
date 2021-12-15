@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import img from './assets/hi.png';
+import img from './assets/chat.svg';
 import {StyledAnchor} from './styles/global';
  
 const Container = styled.div`

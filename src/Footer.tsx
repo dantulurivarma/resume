@@ -37,7 +37,7 @@ const Footer = () => {
        <a target="_blank" rel="noopener noreferrer" href="mailto:phani5797@gmail.com">
         <AiOutlineMail  size={32}/>
        </a>
-       <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/phaneendra-dantuluri-881984191/">
+       <a target="_blank" rel="noopener noreferrer" href="www.linkedin.com/in/varma-dantuluri-881984191">
          <AiOutlineLinkedin  size={32} />
        </a>
      </div>
