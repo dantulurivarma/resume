@@ -79,9 +79,9 @@ const About = () => {
   return (
     <Wrapper>
       {/* <ImageDiv data-aos="fade-right"></ImageDiv> */}
-      <div className="mob-desc">
+      {/* <div className="mob-desc">
       <MobileImageDiv data-aos="fade-right"/>
-      </div>
+      </div> */}
       <Description data-aos="zoom-in">
       <div>
       <StyledH2> Hi, I'm Phaneendra.</StyledH2>
