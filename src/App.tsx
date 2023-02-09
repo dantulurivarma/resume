@@ -20,8 +20,8 @@ function App() {
   return (
 
     <div className="App">
-      NOT AVAILABLE AT THE MOMENT......
-      {/* <Header />
+      {/* NOT AVAILABLE AT THE MOMENT...... */}
+      <Header />
       <div id="about">
         <About />
       </div>
@@ -36,7 +36,7 @@ function App() {
       <div id="contact">
         <Interact />
       </div>
-      <Footer />  */}
+      <Footer /> 
     </div>
   );
 }
