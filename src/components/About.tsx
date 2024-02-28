@@ -78,17 +78,17 @@ const MobileImageDiv = styled.div`
 const About = () => {
   return (
     <Wrapper>
-      {/* <ImageDiv data-aos="fade-right"></ImageDiv> */}
-      {/* <div className="mob-desc">
+      <ImageDiv data-aos="fade-right"></ImageDiv>
+      <div className="mob-desc">
       <MobileImageDiv data-aos="fade-right"/>
-      </div> */}
+      </div>
       <Description data-aos="zoom-in">
       <div>
       <StyledH2> Hi, I'm Phaneendra.</StyledH2>
       <StyledH4>I'm a passionate and detail-oriented software engineer who loves to bring great ideas to life!</StyledH4>
       <Border />
       <StyledParagraph>
-        <b>I’m currently working as a Fullstack Developer at Royal Bank Of Canada, </b>
+        <b>I’m currently working as a Sr.Front-End Developer at Equifax, </b>
          I love managing projects and building web/mobile applications that can turn innovative ideas into great products.
       </StyledParagraph>
 

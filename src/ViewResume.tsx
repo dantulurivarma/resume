@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { StyledAnchor } from "./styles/global";
-import resume from './assets/phaneendra_resume_rbc.pdf';
+import resume from './assets/PHANEENDRA-RESUME-AC.pdf';
 
 const Container = styled.div`
   text-align: center;

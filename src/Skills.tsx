@@ -137,6 +137,7 @@ const Skills = () => {
             <li className={'margin-bottom-md'}><span><AiOutlineCheck /></span><p>BitBucket</p></li>
             <li className={'margin-bottom-md'}><span><AiOutlineCheck /></span><p>AWS</p></li>
             <li className={'margin-bottom-md'}><span><AiOutlineCheck /></span><p>Dockers</p></li>
+            <li className={'margin-bottom-md'}><span><AiOutlineCheck /></span><p>GraphQl</p></li>
           </ul>
         </div>
       </StyledSkills>

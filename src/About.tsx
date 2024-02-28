@@ -73,7 +73,7 @@ const About = () => {
       <MobileImageDiv />
 
       <StyledParagraph>
-        <b>I’m currently working as a Fullstack Developer at Royal Bank Of Canada, </b>
+        <b>I’m currently working as a Sr.Front-End Developer at Equifax...., </b>
          I love managing projects and building web/mobile applications that can turn innovative ideas into great products.
       </StyledParagraph>
 

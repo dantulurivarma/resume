@@ -222,7 +222,30 @@ const Experience = () => {
        <div className="border margin-one"></div>
       </div>
       <div className="exp-container">
-        <div className="exp-section">
+      <div className="exp-section">
+          <StyledDesc>
+          <h5>Air Canada</h5>
+          <p>Sr.Front-End Developer</p>
+          <div className="border margin-two"></div>
+          <div className="list-container">
+            <ul>
+              <li>Successfully implemented Air Canada's revenue application for a large user base, providing a smooth and robust airline booking flow</li>
+              <li>Demonstrated strong teamwork and communication skills by effectively collaborating with team members throughout the development lifecycle</li>
+              <li>Designed and developed a chatbot application using React and Aws lex, enabling automated customer support and improving user engagement</li>
+              {/* <li>Successfully implemented a secure-key login system for a large user base, providing a robust and reliable authentication mechanism</li>
+              <li>Demonstrated strong teamwork and communication skills by effectively collaborating with team members throughout the development lifecycle.</li>
+              <li>Designed and developed a chatbot application using Angular, enabling automated customer support and improving user engagement</li> */}
+            </ul>
+          </div>
+          </StyledDesc>
+          <div className="icon-container">
+          <div className="icon-wrapper">
+            <TiPencil  size={24}/>
+          </div>
+        </div>
+        <h4  className="exp-time">Nov 2022 - Present</h4>
+        </div>
+        <div className="exp-section align-right">
           <StyledDesc>
           <h5>ROYAL BANK OF CANADA</h5>
           <p>Angular Developer</p>
@@ -234,20 +257,20 @@ const Experience = () => {
               <li>Proposed and implemented scalable common components that can minimize code duplication</li>
             </ul>
           </div>
-          <h4>JAN 2019 - PRESENT</h4>
+          <h4>JAN 2019 - Nov 2022</h4>
           </StyledDesc>
           <div className="icon-container">
           <div className="icon-wrapper">
             <TiPencil  size={24}/>
           </div>
         </div>
-        <h4  className="exp-time">JAN 2019 - PRESENT</h4>
+        <h4  className="exp-time">JAN 2019 - Nov 2022</h4>
         </div>
 
-        <div className= "exp-section align-right">
+        <div className= "exp-section">
           <StyledDesc align>
           <h5>TD BANK</h5>
-          <p>Fullstack Developer</p>
+          <p>Fullstack Engineer</p>
           <div className="border margin-two"></div>
           <div className="list-container">
             <ul>
@@ -259,20 +282,20 @@ and custom validators</li>
               <li>Experience in creating Angular Directives and Pipes to transform the DOM elements</li>
             </ul>
           </div>
-          <h4>JAN 2018 - JAN 2019</h4>
+          <h4>JAN 2018 - JAN 2018</h4>
           </StyledDesc>
           <div className="icon-container">
           <div className="icon-wrapper">
             <IoBagCheck  size={24}/>
           </div>
         </div>
-        <h4 className="exp-time">JAN 2018 - JAN 2019</h4>
+        <h4 className="exp-time">JAN 2018 - DEC 2018</h4>
         </div>
 
-        <div className= "exp-section">
+        <div className= "exp-section align-right">
           <StyledDesc>
           <h5>TELUS HEALTH</h5>
-          <p>Fullstack Developer</p>
+          <p>Fullstack Engineer</p>
           <div className="border margin-two"></div>
           <div className="list-container">
             <ul>
